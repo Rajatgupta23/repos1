@@ -1,0 +1,15 @@
+var itemlist= document.querySelector('#items')
+
+//console.log(itemlist.parentNode)
+itemlist.parentNode.style.backgroundColor= "#f4f4f4"
+//parentelement
+
+//console.log(itemlist.parentElement)
+
+//console.log(itemlist.childNodes)
+
+//console.log(itemlist.children)
+itemlist.children[1].style.color= 'yellow'
+
+//console.log(itemlist.firstChild)
+itemlist.firstElementChild.textContent="Hello"
